@@ -1,1 +1,16 @@
-
+[
+    {
+        "Name": "Module 03 - Manage Azure Resources Using PowerShell",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/prod/Instructions/Labs/lab05-gettingstarted.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/Lab3-Manage%20Azure%20Resources%20Using%20PowerShell.md",
+                "Order": 2
+            }
+        ]
+    }
+]
