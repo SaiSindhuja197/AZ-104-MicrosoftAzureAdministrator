@@ -1,1 +1,16 @@
-
+[
+    {
+        "Name": "Module 05 - Implement Intersite Connectivity",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/lab06-gettingstarted.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_06-Implement_Network_Traffic_Management.md",
+                "Order": 2
+            }
+        ]
+    }
+]
