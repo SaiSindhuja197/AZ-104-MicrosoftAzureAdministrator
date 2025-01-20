@@ -1,4 +1,4 @@
-# Lab 02: Manage Subscriptions,RBAC and Governance
+# Lab 03a: Manage Azure resources by Using the Azure Portal 
 
 ## Lab Overview
 
