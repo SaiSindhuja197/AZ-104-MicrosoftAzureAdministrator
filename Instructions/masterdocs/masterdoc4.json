@@ -10,6 +10,10 @@
             {
                 "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_08-Manage_Virtual_Machines.md",
                 "Order": 2
+            },
+            {
+                "RawFilePath": "",
+                "Order": 2
             }
         ]
     }
