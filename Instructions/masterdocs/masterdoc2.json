@@ -4,11 +4,11 @@
         "Language": "English",
         "Files": [
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/prod/Instructions/Labs/lab04-gettingstarted.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/lab04-gettingstarted.md",
                 "Order": 1
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md",
                 "Order": 2
             }
         ]
