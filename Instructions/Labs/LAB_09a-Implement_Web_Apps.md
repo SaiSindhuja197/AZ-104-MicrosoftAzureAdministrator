@@ -1,4 +1,4 @@
-# Lab 09: Implement Web Apps, Container Instances and Container Apps
+# Lab 03: Implement Web Apps, Container Instances and Container Apps
 
 ## Lab Overview
 
