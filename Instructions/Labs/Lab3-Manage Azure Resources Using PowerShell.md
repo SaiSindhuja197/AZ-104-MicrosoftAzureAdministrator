@@ -1,10 +1,21 @@
+# Lab 03 - Manage Azure Resources Using PowerShell
 
+## Lab Overview
 
+This lab focuses on managing Azure Resources Using PowerShell which involves automating and managing Azure services and infrastructure via PowerShell cmdlets.
 
+## Lab objectives
 
+In this lab, you will complete the following tasks:
 
++ Task 1: Create a virtual machine using Azure PowerShell .
++ Task 2: Create a virtual machine using the CLI.
 
-## Task 1: Create a virtual machine using Azure PowerShell (option 1)
+## Exercise 1: Administer Azure resources with PowerShell.
+
+In this exercise, you will learn how to administer Azure resources with PowerShell by automating tasks such as provisioning, configuring, and managing services.
+
+## Task 1: Create a virtual machine using Azure PowerShell 
 
 1. On the Azure portal, select the **Cloud shell** (**[>_]**)  button at the top of the page to the right of the search box. This opens a cloud shell pane at the bottom of the portal.
 
@@ -96,4 +107,12 @@
     ```
 
   >**Did you know?** When you use Azure to stop your virtual machine, the status is *deallocated*. This means that any non-static public IPs are released, and you stop paying for the VM’s compute costs.
+
+## Review
+
+In this lab we have provisioned Azure resource using powershell and CLI.
+
+## You have successfully completed the lab
+
+
 
