@@ -1,4 +1,4 @@
-# Lab 09b - Implement Azure Container Instances
+# Lab 03a - Implement Azure Container Instances
 
 ## Lab Overview
 
