@@ -1,4 +1,4 @@
-# Lab 02: Manage Subscriptions,RBAC and Governance
+# Lab 03: Manage Subscriptions,RBAC and Governance
 
 ## Lab Overview
 
