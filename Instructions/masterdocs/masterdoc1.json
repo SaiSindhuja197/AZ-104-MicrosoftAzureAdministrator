@@ -1,1 +1,16 @@
-
+[
+    {
+        "Name": "Module 01 - Manage Microsoft Entra ID Identities",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/prod/Instructions/Labs/lab01-gettingstarted.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/Labs/LAB_01-Manage_Microsoft_Entra_ID_Identities.md",
+                "Order": 2
+            }
+        ]
+    }
+]
