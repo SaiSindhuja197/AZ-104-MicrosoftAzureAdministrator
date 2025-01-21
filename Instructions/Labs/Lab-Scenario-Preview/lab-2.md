@@ -20,10 +20,10 @@ In this lab, you will complete the following tasks:
     + Task 2: Enforce tagging via an Azure policy
     + Task 3: Apply tagging via an Azure policy
 
-## Lab 2a - Architecture diagram
+## Lab 3 - Architecture diagram
 ![image](../media/lab02a.png)
 
-## Lab 2b - Architecture diagram
+## Lab 3a - Architecture diagram
 ![image](../media/lab02b.png)
 
 Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/84c5cd48-bf0d-4edc-9fc3-932082b0b0b9) if you want to go through detailed guide prior to launching lab environment.
