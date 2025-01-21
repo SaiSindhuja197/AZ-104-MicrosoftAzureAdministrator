@@ -20,10 +20,14 @@ In this exercise, you will manage Virtual Machines in Azure to deploy, configure
 
 In this task, you will deploy two Azure virtual machines into different availability zones by using the Azure portal. Availability zones offer the highest level of uptime SLA for virtual machines at 99.99%. To achieve this SLA, you must deploy at least two virtual machines across different availability zones.
 
-1. In the Azure portal, search for and select `Virtual machines`, on the **Virtual machines** blade, click **+ Create**, and then select in the drop-down **+ Azure virtual machine**. Notice your other choices.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual machines**, and then select **Virtual machines** under services.
 
-   ![](../Labs/Images/img1lab8.png)
+   ![](../Labs/Images/pax8-image1.png)
+   
+1. Click **+ Create**, and then select in the drop-down **+ Azure virtual machine**. Notice your other choices.
 
+   ![](../Labs/Images/pax8-image1.png)
+   
 1. On the **Basics** tab, in the **Availability zone** drop down menu, place a checkmark next to **Zone 2**. This should select both **Zone 1** and **Zone 2**.
 
     ![](../Labs/Images/l8i1.png)
@@ -58,17 +62,21 @@ In this task, you will deploy two Azure virtual machines into different availabi
 
     | Setting | Value |
     | --- | --- |
-    | OS disk type | **Premium SSD** |
-    | Delete with VM | **checked** (default) |
-    | Enable Ultra Disk compatibility | **Unchecked** |
+    | OS disk type | **Premium SSD (1)** |
+    | Delete with VM | **checked** (default) **(2)** |
+    | Enable Ultra Disk compatibility | **Unchecked (3)** |
+
+    ![](../Labs/Images/pax8-image3.png)
 
 1.  Click **Next: Networking >** take the defaults but do not provide a load balancer.
 
     | Setting | Value |
     | --- | --- |
-    | Delete public IP and NIC when VM is deleted | **Checked** |
-    | Load balancing options | **None** |
+    | Delete public IP and NIC when VM is deleted | **Checked (1)** |
+    | Load balancing options | **None (2)** |
 
+    ![](../Labs/Images/pax8-image4.png)
+    
 1. Click **Next: Management >** and specify the following settings (leave others with their default values):
 
     | Setting | Value |
