@@ -240,6 +240,8 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Priority | **1010** |
     | Name | `allow-http` |
 
+    ![](../Labs/Images/pax8-image17.png)
+
 1. Click **Add** and, back on the **Create network security group** blade, click **OK**.
 
 1. In the **Edit network interface** blade, in the **Public IP address** section, click **Enabled** and click **OK**.
@@ -259,6 +261,8 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | --- | --- |
     | Load balancer name | `vmss-lb` |
 
+     ![](../Labs/Images/pax8-image20.png)
+   
     >**Note:** Pause for a minute and review what you done. At this point, you have configured the virtual machine scale set with disks and networking. In the network configuration you have created a network security group and allowed HTTP. You have also created a load balancer with a public IP address.
 
 1. On the **Management** tab, specify the following settings (leave others with their default values):
@@ -318,7 +322,7 @@ In this task, you will scale the Virtual Machine (VM) Scale Set in Azure using a
     | Cool down (minutes) | **5** (6) |
     | Percentage | **50** (7) |
       
-    ![](../Labs/Images/l8i15.png) 
+    ![](../Labs/Images/pax8-image18.png) 
 
 1. Be sure to **Save** your changes.
 
@@ -354,6 +358,8 @@ In this task, you will scale the Virtual Machine (VM) Scale Set in Azure using a
 1. Be sure to **Save** your changes
 
 1. On the **vmss1** page, select **Instances**. This is where you would monitor the number of virtual machine instances.
+
+    ![](../Labs/Images/pax8-image19.png)
 
     >**Note:** If you are interested in using Azure PowerShell for virtual machine creation, try Task 5. If you are interested in using the CLI to create virtual machines, try Task 6.
 
