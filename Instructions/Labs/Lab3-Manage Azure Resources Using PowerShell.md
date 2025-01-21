@@ -19,7 +19,7 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
 1. On the Azure portal, select the **Cloud shell** (**[>_]**)  button at the top of the page to the right of the search box. This opens a cloud shell pane at the bottom of the portal.
 
-   ![image](../media/az-104i10.png)
+   ![image](../Labs/Images/mod03-ai-102-image5.png)
 
 1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **PowerShell**.
 
