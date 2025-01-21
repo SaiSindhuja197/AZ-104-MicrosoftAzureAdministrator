@@ -11,8 +11,6 @@ In this lab, you will complete the following tasks:
 + Task 2: Manage compute and storage scaling for virtual machines.
 + Task 3: Create and configure Azure Virtual Machine Scale Sets.
 + Task 4: Scale Azure Virtual Machine Scale Sets.
-+ Task 5: Create a virtual machine using Azure PowerShell (optional 1).
-+ Task 6: Create a virtual machine using the CLI (optional 2).
 
 ## Exercise 1: Manage Virtual Machines
 
