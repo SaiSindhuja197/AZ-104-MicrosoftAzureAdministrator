@@ -187,17 +187,18 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Orchestration mode | **Uniform** (6) |
     | Security type | **Standard** (7) |
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** (8) |
-    | Run with Azure Spot discount | **Unchecked** (9) |
-    | Size | **Standard D2s_v3** (10) |
-    | Username | **Student** (11) |
-    | Password | **Provide a secure password** (12)  |
+    | Size | **Standard D2s_v3** (9) |
+    | Username | **Student** (10) |
+    | Password | **Provide a secure password** (11)  (12)|
     | Already have a Windows Server license? | **Unchecked** (13) |
 
     >**Note**: For the list of Azure regions which support deployment of Windows virtual machines to availability zones, refer to [What are Availability Zones in Azure?](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
-    ![](../Labs/Images/l8i9.png)
+    ![](../Labs/Images/pax8-image14.png)
 
-    ![](../Labs/Images/l8i10.png) 
+    ![](../Labs/Images/pax8-image15.png)
+
+    ![](../Labs/Images/pax8-image16.png)
 
 1. On the **Spot** tab, accept the defaults and select **Next: Disks >**.
 
