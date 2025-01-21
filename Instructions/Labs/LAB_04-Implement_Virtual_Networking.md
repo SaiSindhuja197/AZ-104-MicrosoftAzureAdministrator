@@ -35,26 +35,32 @@ The organization plans a large amount of growth for core services. In this task,
 
      ![image](../media/l4i1.png)
 
-1. Click **Next** and subsequently click on **Next** again to move to the **IP Addresses** tab.
+1. Click **Next** and subsequently click on **Next** again to move to the **IP Addresses** tab. Edit the already present address space **(1)** and then select **+ Add a subnet (2)**.
 
     | Setting | Value |
     | --- | --- |
     | IPv4 address space | **10.20.0.0/16** |
 
-1. Select **+ Add a subnet**. Complete the name and address information for each subnet. Be sure to select **Add** for each new subnet. 
+     ![image](../media/v1.png)    
+
+1. Add two Subnets. Complete the name and address information for each subnet. Be sure to select **Add (4)** for each new subnet. 
 
     | **Subnet**             | **Option**           | **Value**              |
     | ---------------------- | -------------------- | ---------------------- |
-    | SharedServicesSubnet   | Subnet name          | `SharedServicesSubnet` |
-    |                        | Starting address	    | `10.20.10.0`           |
-    |			     | Size		    | `/24`	             |
+    | SharedServicesSubnet   | Subnet name          | `SharedServicesSubnet` **(1)** |
+    |                        | Starting address	    | `10.20.10.0` **(2)**          |
+    |			     | Size		    | `/24`	 **(3)**            |
     | DatabaseSubnet         | Subnet name          | `DatabaseSubnet`       |
     |                        | Starting address	    | `10.20.20.0`           |
     |			     | Size		    | `/24`	             |
 
+     ![image](../media/v2.png)
+
     >**Note:** Every virtual network must have at least one subnet. Reminder that five IP addresses will always be reserved, so consider that in your planning. 
 
 1. Select **Review + create**.
+
+     ![image](../media/v3.png)
 
 1. Verify your configuration passed validation, and then select **Create**.
 
@@ -75,8 +81,10 @@ The organization plans a large amount of growth for core services. In this task,
 
 In this task, you create the ManufacturingVnet virtual network and associated subnets. The organization anticipates growth for the manufacturing offices so the subnets are sized for the expected growth. For this task, you use a template to create the resources. 
 
-1. In your Lab VM, navigate to **C:\AllFiles\AZ-104-MicrosoftAzureAdministrator-Lab-Files\Allfiles\Labs\04** where you will find the template and parameter file named 
+1. In your Lab VM, click on the **File explorer** from the taskbar. Navigate to **C:\AllFiles\AZ-104-MicrosoftAzureAdministrator-Lab-Files\Allfiles\Labs\04** press **Enter**, where you will find the template and parameter file named 
    **az-104-04template** and **az-104-04parameters** that will be used for the custom deployment.
+
+    ![image](../media/v5.png)   
 
 1. In the Azure portal, search for and select **Deploy a custom template** resource.
 
@@ -84,9 +92,23 @@ In this task, you create the ManufacturingVnet virtual network and associated su
 
     ![image](../media/az101-1.png)
 
-1. Select the **az-104-04template.json** file, then select **Save**.
+1. Navigate to `C:\AllFiles\AZ-104-MicrosoftAzureAdministrator-Lab-Files\Allfiles\Labs\04` press **Enter** **(1)**, select the **az-104-04template.json (2)** file, then click on **Open (3)**.
 
-1. Click on the **Edit Parameters** section and click on **Load File** to upload the **az-104-04parameters.json** file and subsequently, click on **Save**
+    ![image](../media/v4.png)
+
+1. Click on **Save**.    
+
+1. Click on the **Edit Parameters** section.
+
+    ![image](../media/v6.png)
+
+1. Click on **Load File**. 
+
+1. Navigate to `C:\AllFiles\AZ-104-MicrosoftAzureAdministrator-Lab-Files\Allfiles\Labs\04` press **Enter**. select the **az-104-04parameters.json** file, then click on **Open**.
+
+1. Click on **Save**
+
+    ![image](../media/v7.png)
 
 1. In the **Basics** tab, select **az104-04-rg1-<inject key="DeploymentID" enableCopy="false" />** resource group.
     
@@ -94,7 +116,11 @@ In this task, you create the ManufacturingVnet virtual network and associated su
 
 1. Select **Review + create** and then **Create**.
 
-1. Wait for the template to deploy, then confirm (in the portal) the Manufacturing virtual network and subnets were created.
+1. Wait for the template to deploy, then click on **Go to resource group**.
+
+1. Confirm (in the portal) the Manufacturing virtual network and subnets were created.
+
+    ![image](../media/v8.png)
    
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -115,7 +141,7 @@ In this task, we create an Application Security Group and a Network Security Gro
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | *your subscription* (1) |
+    | Subscription | *Leave the default subscription* (1) |
     | Resource group | **az104-04-rg1-<inject key="DeploymentID" enableCopy="false" />**  (2)|
     | Name | **asg-web** (3) |
     | Region |  **<inject key="Region" enableCopy="false" />** (4)  |
@@ -141,16 +167,16 @@ In this task, we create an Application Security Group and a Network Security Gro
 
 1. After the NSG is deployed, click **Go to resource**.
 
-1. Under **Settings** click **Subnets** and then **Associate**.
+1. Under **Settings** click **Subnets (1)** and then **Associate (2)**.
 
     | Setting | Value |
     | -- | -- |
-    | Virtual network | **az104-04-vnet1** |
-    | Subnet | **SharedServicesSubnet** |
+    | Virtual network | **az104-04-vnet1 (3)** |
+    | Subnet | **SharedServicesSubnet (4)** |
 
-    ![image](../media/l4i9.png)
+1. Click **OK (5)** to save the association.
 
-1. Click **OK** to save the association.
+    ![image](../media/v9.png)
 
 ### Configure an inbound security rule to allow ASG traffic
 
@@ -233,22 +259,32 @@ You can configure Azure DNS to resolve host names in your public domain. For exa
    
 1. Wait for the DNS zone to deploy and then select **Go to resource**.
 
-1. On the **Overview** blade  select **Recordsets** and notice the names of the four Azure DNS name servers assigned to the zone. **Copy** one of the name server addresses. You will need it in a future step. 
+1. On the **Overview** blade  select **Recordsets**.
+
+    ![image](../media/v10.png)
+
+1. Notice the names of the four Azure DNS name servers assigned to the zone. **Copy** one of the name server addresses. You will need it in a future step. 
 
     ![image](../media/l4i12.png)
 
-1. Select **+ Add**. You add a virtual network link record for each virtual network that needs private name-resolution support.
+1. Select **+ Add**. 
+
+    ![image](../media/v11.png)
+
+1. You add a virtual network link record for each virtual network that needs private name-resolution support and select **Add (5)**.
 
     | Property | Value    |
     |:---------|:---------|
-    | Name | **www** |
-    | Type | **A - IPv4 Address records** |
-    | TTL | **1** |
-    | IP address | **10.1.1.4** |
+    | Name | **www (1)** |
+    | Type | **A - IPv4 Address records (2)** |
+    | TTL | **1 (3)** |
+    | IP address | **10.1.1.4 (4)** |
 
-     >**Note:**  In a real-world scenario, you'd enter the public IP address of your web server.
+     ![image](../media/v12.png)    
 
-1. Select **Add** and verify **contoso<inject key="DeploymentID" enableCopy="false" />.com** has an A record set named **www**.
+      >**Note:**  In a real-world scenario, you'd enter the public IP address of your web server.
+
+1. Verify **contoso<inject key="DeploymentID" enableCopy="false" />.com** has an A record set named **www**.
 
    ![image](../media/l4i13.png)
 
@@ -258,9 +294,10 @@ You can configure Azure DNS to resolve host names in your public domain. For exa
     ```sh
    nslookup www.contoso[DID].com [name server name]
    ```
+
 1. Verify the host name **www.contoso<inject key="DeploymentID" enableCopy="false" />.com** resolves to the IP address you provided. This confirms name resolution is working correctly.
 
-    ![image](../media/l4i14.png)
+    ![image](../media/v13.png)
 
 ###  Configure a private DNS zone
 
@@ -285,28 +322,35 @@ A private DNS zone provides name resolution services within virtual networks. A 
 
 1. Notice on the **Overview** blade there are no name server records. 
 
-1. In the left navigation pane under **DNS Management**, select **Virtual network links** from the left navigation pane and then select **+ Add**.
+1. In the left navigation pane under **DNS Management**, select **Virtual network links (1)** from the left navigation pane and then select **+ Add (2)**.
+
+    ![image](../media/v14.png)
+
+1. Provide the following details and then click on **Create (3)**.
 
     | Property | Value    |
     |:---------|:---------|
-    | Link name | **manufacturing-link**|
-    | Virtual network |**ManufacturingVnet**|
+    | Link name | **manufacturing-link (1)**|
+    | Virtual network |**ManufacturingVnet (2)**|
 
-1. Select **Create** and wait for the link to create. 
+     ![image](../media/v-15.png)
 
-1. From the left navigation pane, under DNS Management click on **Record Set**. Click on **+ Add** to  add a record for each virtual machine that needs private name-resolution support.
+1. Wait for the link to create. 
+
+1. From the left navigation pane, under DNS Management click on **Record Set (1)**. Click on **+ Add (2)** to  add a record for each virtual machine that needs private name-resolution support and then click on **Add (7)**.
 
     | Property | Value    |
     |:---------|:---------|
-    | Name | **sensorvm** |
-    | Type | **A** |
-    | TTL | **1** |
-    | IP address | **10.1.1.4** |
+    | Name | **sensorvm (3)** |
+    | Type | **A (4)** |
+    | TTL | **1 (5)** |
+    | IP address | **10.1.1.4 (6)** |
+
+     ![image](../media/v16.png)    
    
     >**Note:**  In a real-world scenario, you'd enter the IP address for a specific manufacturing virtual machine
 
-1. Click on **Add**
-  
+
 ### Review
 
 In this lab, you have completed the following:
