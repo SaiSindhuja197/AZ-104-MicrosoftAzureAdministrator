@@ -26,7 +26,7 @@ In this task, you will deploy two Azure virtual machines into different availabi
    
 1. Click **+ Create**, and then select in the drop-down **+ Azure virtual machine**. Notice your other choices.
 
-   ![](../Labs/Images/pax8-image1.png)
+   ![](../Labs/Images/pax8-image2.png)
    
 1. On the **Basics** tab, in the **Availability zone** drop down menu, place a checkmark next to **Zone 2**. This should select both **Zone 1** and **Zone 2**.
 
@@ -82,7 +82,9 @@ In this task, you will deploy two Azure virtual machines into different availabi
     | Setting | Value |
     | --- | --- |
     | Patch orchestration options | **Azure orchestrated** |  
-   
+
+     ![](../Labs/Images/pax8-image5.png)
+
 1. Click **Next: Monitoring >** and specify the following settings (leave others with their default values):
 
     | Setting | Value |
@@ -112,7 +114,7 @@ In this task, you will scale a virtual machine by adjusting its size to a differ
 
 1. On the **az104-vm1** virtual machine, in the **Availability + scale** blade, select **Size** (1).Set the virtual machine size to **DS1_v2** (2) and click **Resize** (3). When prompted, confirm the change.
 
-   ![](../Labs/Images/l8i4.png)
+   ![](../Labs/Images/pax8-image6.png)
 
     >**Note**: Choose another size if **Standard DS1_v2** is not available. Resizing is also known as vertical , up or down.
 
