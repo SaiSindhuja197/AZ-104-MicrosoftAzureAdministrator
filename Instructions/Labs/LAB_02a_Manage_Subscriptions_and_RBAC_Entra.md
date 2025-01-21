@@ -1,5 +1,4 @@
-# Lab 03: Manage Subscriptions,RBAC and Governance
-
+# Lab 03: Manage Subscriptions,RBAC and Azure Resources
 ## Lab Overview
 
 In this lab, you will explore role-based access control (RBAC) to manage permissions and scopes, enabling precise control over actions that identities can perform. You will also simplify subscription management by organizing all Azure subscriptions under a management group and configuring permissions to allow virtual machine management and support request submissions.
