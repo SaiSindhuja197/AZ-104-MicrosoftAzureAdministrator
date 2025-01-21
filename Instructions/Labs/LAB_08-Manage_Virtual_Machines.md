@@ -326,6 +326,8 @@ In this task, you will scale the Virtual Machine (VM) Scale Set in Azure using a
 
 1. Be sure to **Save** your changes.
 
+    ![](../Labs/Images/pax8-image21.png)
+
 ### Scale in rule
 
 1. During evenings or weekends, demand may decrease so it is important to create a scale in rule.
