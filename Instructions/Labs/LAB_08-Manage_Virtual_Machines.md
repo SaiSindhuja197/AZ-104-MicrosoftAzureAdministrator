@@ -129,23 +129,31 @@ In this task, you will scale a virtual machine by adjusting its size to a differ
 
      ![](../Labs/Images/l8i5.png)
 
+    >**Note** : If another row is added while performing the above step, please delete it by selecting the **Detach** icon shown in the screenshot below.
+
+      ![](../Labs/Images/pax8-image11.png)
+   
 1. After the disk has been created, click **Detach** (if necessary, scroll to the right to view the detach icon), and then click **Apply**.
 
    ![](../Labs/Images/l8i6.png)
 
      >**Note**: Detaching removes the disk from the VM but keeps it in storage for later use.
 
-1. In the azure portal, search for and select `Disks`. From the list of disks, select the **vm1-disk1** object.
+1. In the azure portal, search for and select **Disks**.
 
+     ![](../Labs/Images/pax8-image8.png)
+   
+1. From the list of disks, select the **vm1-disk1** object.
+
+    ![](../Labs/Images/pax8-image9.png)
+   
     >**Note:** The **Overview** blade also provides performance and usage information for the disk.
 
-1. From the left navigation pane, Under the **Settings** blade, select **Size + performance**.
+1. From the left navigation pane, Under the **Settings (1)** blade, select **Size + performance (2)**. Set the storage type to **Standard SSD (3)**, and then click **Save (4)**.
 
-1. Set the storage type to **Standard SSD**, and then click **Save**.
+   ![](../Labs/Images/pax8-image10.png)
 
-   ![](../Labs/Images/l8i7.png)
-
-1. Navigate back to the **az104-vm1** virtual machine and select **Disks**.
+1. In the azure portal, search for and select **Virtual machines** then select **az104-vm1** virtual machine from the list.
 
 1. In the **Data disk** section, select **Attach existing disks**. and in the **Disk name** drop-down, select **VM1-DISK1**.
 
