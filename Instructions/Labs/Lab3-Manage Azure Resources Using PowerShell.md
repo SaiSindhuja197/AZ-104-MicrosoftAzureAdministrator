@@ -25,24 +25,24 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
      ![](../Labs/Images/pax8-image22.png)
    
-1. On **Getting started** window choose **Mount storage account** then under **Storage account subscription** select your available subscription from the dropdown and click on **Apply**.
+1. On **Getting started** window choose **Mount storage account (1)** then under **Storage account subscription** select your **Available subscription (2)** from the dropdown and click on **Apply (3)**.
 
      ![](../Labs/Images/pax8-image23.png)
 
-1. Within the Mount storage account pane, select **I want to create a storage account** and click **Next**. 
+1. Within the Mount storage account pane, select **I want to create a storage account (1)** and click **Next (2)**. 
 
       ![](../Labs/Images/pax8-image24.png)
    
     >**Note:** As you work with the Cloud Shell a storage account and file share is required. 
 
-1. Specify the following then click on **Create**.
+1. Specify the following then click on **Create (5)**.
    
     | Settings | Values |
     |  -- | -- |
-    | Resource Group | **az104-08-rg01** |
-    | Region         | **<inject key="Region" enableCopy="false"/>** |
-    | Storage account name | **str<inject key="DeploymentID" enableCopy="false" />** |
-    | File share  | **none** |
+    | Resource Group | **az104-08-rg01 (1)** |
+    | Region         | **<inject key="Region" enableCopy="false"/> (2)** |
+    | Storage account name | **str<inject key="DeploymentID" enableCopy="false" />** **(3)** |
+    | File share  | **none** **(4)** |
 
      ![](../Labs/Images/pax8-image25.png)
 
