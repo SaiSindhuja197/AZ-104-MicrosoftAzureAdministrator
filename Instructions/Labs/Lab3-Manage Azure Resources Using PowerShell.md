@@ -23,10 +23,16 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
 1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **PowerShell**.
 
+     ![](../Labs/Images/pax8-image22.png)
+   
 1. On **Getting started** window choose **Mount storage account** then under **Storage account subscription** select your available subscription from the dropdown and click on **Apply**.
+
+     ![](../Labs/Images/pax8-image23.png)
 
 1. Within the Mount storage account pane, select **I want to create a storage account** and click **Next**. 
 
+      ![](../Labs/Images/pax8-image24.png)
+   
     >**Note:** As you work with the Cloud Shell a storage account and file share is required. 
 
 1. Specify the following then click on **Create**.
@@ -37,6 +43,8 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
     | Region         | **<inject key="Region" enableCopy="false"/>** |
     | Storage account name | **str<inject key="DeploymentID" enableCopy="false" />** |
     | File share  | **none** |
+
+     ![](../Labs/Images/pax8-image25.png)
 
 1. Run the following command to create a virtual machine. When prompted, provide a username and password for the VM. While you wait check out the [New-AzVM](https://learn.microsoft.com/powershell/module/az.compute/new-azvm?view=azps-11.1.0) command reference for all the parameters associated with creating a virtual machine.
 
@@ -61,6 +69,8 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
 1. Verify your new virtual machine is listed and the **Status** is **Running**.
 
+    ![](../Labs/Images/pax8-image26.png)
+
 1. Use **Stop-AzVM** to deallocate your virtual machine. Type **Yes** to confirm.
 
     ```powershell
@@ -75,16 +85,18 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
 ## Task 2: Create a virtual machine using the CLI 
 
-1. Use the icon (top right) to launch a **Cloud Shell** session. Alternately, navigate directly to `https://shell.azure.com`.
+1. Select the icon (top left ) **Switch to bash** and Confirm when prompted.
 
-1. Be sure to select **Bash**. If necessary, use the **Show advanced settings** and configure the shell storage.
+   ![](../Labs/Images/pax8-image27.png)
+
+   ![](../Labs/Images/pax8-image28.png)
 
 1. Run the following command to create a virtual machine. When prompted, provide a username and password for the VM. While you wait check out the [az vm create](https://learn.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-create) command reference for all the parameters associated with creating a virtual machine.
 
     ```sh
     az vm create --name myCLIVM --resource-group az104-08-rg01 --image Win2019Datacenter --admin-username localadmin --generate-ssh-keys
     ```
-   >**Note**:**Give Admin password as **Password.1!!** and Password will be not visible
+   >**Note**: Give Admin password as **Password.1!!** and Password will be not visible
    
 1. Once the command completes, use **az vm show** to verify your machine was created.
 
@@ -93,6 +105,8 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
     ```
 
 1. Verify the **powerState** is **VM Running**.
+
+    ![](../Labs/Images/pax8-image29.png)
 
 1. Use **az vm deallocate** to deallocate your virtual machine.
 
@@ -106,6 +120,8 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
     az vm show --name  myCLIVM --resource-group az104-08-rg01 --show-details
     ```
 
+    ![](../Labs/Images/pax8-image30.png)
+   
   >**Did you know?** When you use Azure to stop your virtual machine, the status is *deallocated*. This means that any non-static public IPs are released, and you stop paying for the VM’s compute costs.
 
 ## Review
