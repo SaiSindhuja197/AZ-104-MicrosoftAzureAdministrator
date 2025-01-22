@@ -356,28 +356,4 @@ In this lab, you have completed the following tasks:
 - Created a Microsoft Entra ID (AD) tenant, setting up a dedicated instance for managing your organization's identity and access in Azure.
 - Managed Entra ID guest users, allowing external users to access specific resources in an Azure subscription by assigning them appropriate roles and permissions.
 
-## Key takeaways
-
-Congratulations on completing the lab. Here are some main takeways for this lab:
-
-+ A tenant represents your organization and helps you to manage a specific instance of Microsoft cloud services for your internal and external users.
-+ Microsoft Entra ID has user and guest accounts. Each account has a level of access specific to the scope of work expected to be done.
-+ Groups combine together related users or devices. There are two types of groups including Security and Microsoft 365.
-+ Group membership can be statically or dynamically assigned.
-
-
-## Learn more with self-paced training
-
-+ [Understand Microsoft Entra ID](https://learn.microsoft.com/training/modules/understand-azure-active-directory/). Compare Microsoft Entra ID to Active Directory DS, learn about Microsoft Entra ID P1 and P2, and explore Microsoft Entra Domain Services for managing domain-joined devices and apps in the cloud.
-+ [Create Azure users and groups in Microsoft Entra ID](https://learn.microsoft.com//training/modules/create-users-and-groups-in-azure-active-directory/). Create users in Microsoft Entra ID. Understand different types of groups. Create a group and add members. Manage business-to-business guest accounts.
-+ [Allow users to reset their password with Microsoft Entra self-service password reset](https://learn.microsoft.com/training/modules/allow-users-reset-their-password/). Evaluate self-service password reset to allow users in your organization to reset their passwords or unlock their accounts. Set up, configure, and test self-service password reset.
-
-## Extend your learning with Copilot
-
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-+ What are the Azure PowerShell and CLI commands to create a security group called IT Admins? Provide the official command reference page.  
-+ Provide a step-by-step strategy for managing users and groups in Microsoft Entra ID.
-+ What are the steps in the Azure portal to bulk create users and groups?
-+ Provide a comparison table of internal and external Microsoft Entra ID user accounts. 
-
 ### You have successfully completed the lab
