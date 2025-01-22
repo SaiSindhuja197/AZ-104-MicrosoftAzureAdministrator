@@ -208,13 +208,11 @@ In this task, you will configure autoscaling of Azure Web App. Autoscaling enabl
 
 In this lab, you have completed the following:
 
-- Created an Azure web app: You set up an Azure web app to host your application, ensuring it is properly configured to run on Azure's platform with all necessary settings and environment configurations.
-- Created a staging deployment slot: You created a staging deployment slot for testing new versions of your app. This allowed you to deploy updates without affecting the live production version of your app, providing a controlled environment for 
-  validation before going live.
-- Configured web app deployment settings: You configured various deployment settings for your web app, including specifying deployment methods and automating the deployment process to streamline updates.
-- Deployed code to the staging deployment slot: You deployed a version of your code to the staging slot, allowing for testing and validation in a replica environment before pushing it to production.
-- Swapped the staging slots: After successfully testing the changes in the staging environment, you swapped the staging slot with the production slot, ensuring a smooth transition of the updated code into the live environment with minimal downtime.
-- Configured and tested autoscaling of the Azure web app: You configured autoscaling settings for your web app to automatically adjust resources based on traffic demand, and verified that the scaling mechanism works by simulating traffic surges and 
-  monitoring performance.
+- Created an Azure web app to host and configure your application on Azure’s platform.
+- Set up a staging deployment slot for testing app updates without affecting production.
+- Configured deployment settings, including methods and automation for streamlined updates.
+- Deployed code to the staging slot for validation before production deployment.
+- Swapped the staging slot with production after successful testing to ensure a smooth transition.
+- Configured and tested autoscaling to adjust resources based on traffic demand, verifying performance under traffic surges.
 
 ### You have successfully completed the lab
