@@ -266,11 +266,9 @@ In this task, you will test connectivity between virtual machines on the three v
 
       ![Image](./Images/vm0.png)
 
-3. On the **az104-05-vm0** blade, from the left navigation pane click **Connect** > select **connect** then click on **Download RDP File**. Once the file is downloaded, you will be directed with a warning, click on Keep. Open the downloaded RDP file and click **Connect** when prompted.
+3. On the **az104-05-vm0** blade, from the left navigation pane click **Connect** > select **Connect** then click on **Download RDP File**. Once the file is downloaded, you will be directed with a warning, click on Keep. Open the downloaded RDP file and click **Connect** when prompted.
 
-      ![Image](./Images/connect.png)
-      
-      ![Image](./Images/downloadfile.png)
+      ![Image](./Images/pax8-image52.png)
       
       ![Image](./Images/rdp.png)
 
@@ -342,11 +340,13 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Setting | Value | 
     | --- | --- |
     | Name | `perimeter` |
-    | Starting address  | `10.50.1.0/24`  |
+    | Starting address  | `10.50.1.0`  |
+    | Size | /24 |
 
-   
+     ![Image](./Images/pax8-image53.png)
+
 1. In the Azure portal, search for and select **Route tables** resource, then click on **+ Create**.
-2.  Speify the following and select **Review + Create** and subsequently click on **Create**. 
+1.  Speify the following and select **Review + Create**. 
 
     | Setting | Value | 
     | --- | --- |
@@ -356,9 +356,13 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Name | **az104-05-vm0** |
     | Propagate gateway routes | **No** |
 
+      ![Image](./Images/pax8-image54.png)
+
+1. Click on **Create**.
+
 1. After the route table deploys, select **Go to resource**.
 
-1. From the left navigation pane, under **Settings** select **Routes** and then **+ Add**. Create a route from the future NVA to the CoreServices virtual network. 
+1. From the left navigation pane, under **Settings** select **Routes** and then **+ Add**. Create a route from the future NVA to the CoreServices virtual network. Then click on **Add**.
 
     | Setting | Value | 
     | --- | --- |
@@ -368,7 +372,9 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Next hop type | **Virtual appliance** (notice your other choices) |
     | Next hop address | `10.50.1.7` (future NVA) |
 
-1. Select **+ Add** when the route is completed. The last thing to do is associate the route with the subnet.
+    ![Image](./Images/pax8-image56.png)
+
+1. The last thing to do is associate the route with the subnet.
 
 1. Select **Subnets** from the left navigation pane and then  click on **+ Associate**. Complete the configuration.
 
@@ -377,7 +383,9 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Virtual network | **az104-05-vnet0** |
     | Subnet | **subnet0** |    
 
-     >**Note**: You have created a user-defined route to direct traffic from the DMZ to the new NVA.  
+    ![Image](./Images/pax8-image57.png)
+
+    >**Note**: You have created a user-defined route to direct traffic from the DMZ to the new NVA.  
 
 ### Review
 
