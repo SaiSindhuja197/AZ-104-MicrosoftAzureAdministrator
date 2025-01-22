@@ -87,7 +87,11 @@ In this task, you verify that resources in peered virtual networks can communica
 
 1. From the Azure portal, search for and select **Network Watcher**.
 
+    ![Image](./Images/pax8-image50.png)
+
 1. From Network Watcher, under **Network diagnostic tools** section in the left navigation pane, select **Connection troubleshoot**.
+
+    ![Image](./Images/pax8-image51.png)
 
 1. Use the following information to complete the fields on the **Connection troubleshoot** page and select **Run diagnostic tests** (8).
 
@@ -262,7 +266,7 @@ In this task, you will test connectivity between virtual machines on the three v
 
       ![Image](./Images/vm0.png)
 
-3. On the **az104-05-vm0** blade, click **Connect**, in the drop-down menu, click **RDP**, on the **Connect with RDP** blade, click **Download RDP File** and follow the prompts to start the Remote Desktop session.
+3. On the **az104-05-vm0** blade, from the left navigation pane click **Connect** > select **connect** then click on **Download RDP File**. Once the file is downloaded, you will be directed with a warning, click on Keep. Open the downloaded RDP file and click **Connect** when prompted.
 
       ![Image](./Images/connect.png)
       
