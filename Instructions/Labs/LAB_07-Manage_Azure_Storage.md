@@ -321,26 +321,11 @@ In this task, you will create and configure Azure Files shares.
 
      ![image](./media/l1-image16.png)
    
-## Key takeaways
-
-Congratulations on completing the lab. Here are the main takeaways for this lab. 
-
-+ An Azure storage account contains all your Azure Storage data objects: blobs, files, queues, and tables. The storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world over HTTP or HTTPS.
-+ Azure storage provides several redundancy models including Locally redundant storage (LRS), Zone-redundant storage (ZRS), and Geo-redundant storage (GRS). 
-+ Azure blob storage allows you to store large amounts of unstructured data on Microsoft's data storage platform. Blob stands for Binary Large Object, which includes objects such as images and multimedia files.
-+ Azure file Storage provides shared storage for structured data. The data can be organized in folders.
-+ Immutable storage provides the capability to store data in a write once, read many (WORM) state. Immutable storage policies can be time-based or legal-hold.
-
-## Learn more with self-paced training
-
-+ [Optimize your cost with Azure Blob Storage](https://learn.microsoft.com/training/modules/optimize-your-cost-azure-blob-storage/). Learn how to optimize your cost with Azure Blob Storage.
-+ [Control access to Azure Storage with shared access signatures](https://learn.microsoft.com/training/modules/control-access-to-azure-storage-with-sas/). Grant access to data stored in your Azure Storage accounts securely by using shared access signatures.
 
 ### Review
 In this lab, you have completed:
 - Create and configure a storage account. 
 - Create and configure secure blob storage.
 - Create and configure secure Azure file storage.
-
 
 ### You have successfully completed the lab
