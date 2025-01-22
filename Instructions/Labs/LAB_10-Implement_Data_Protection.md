@@ -308,29 +308,4 @@ In this lab, you have completed the following:
 - Monitored Azure Backup.
 - Enabled virtual machine replication.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ What products does Azure Backup support?
-+ Summarize the steps for backing up and restoring an Azure virtual machine with Azure Backup.
-+ How can I use Azure PowerShell or the CLI to check the status of an Azure Backup job.
-+ Provide at least five best practices for configuring Azure virtual machine backups.
-
-## Learn more with self-paced training
-
-+ [Protect your virtual machines by using Azure Backup](https://learn.microsoft.com/training/modules/protect-virtual-machines-with-azure-backup/). Use Azure Backup to help protect on-premises servers, virtual machines, SQL Server, Azure file shares, and other workloads.
-+ [Protect your Azure infrastructure with Azure Site Recovery](https://learn.microsoft.com/en-us/training/modules/protect-infrastructure-with-site-recovery/). Provide disaster recovery for your Azure infrastructure by customizing replication, failover, and failback of Azure virtual machines with Azure Site Recovery.
-
-## Key takeaways
-
-Congratulations on completing the lab. Here are the main takeaways for this lab. 
-
-+ Azure Backup service provides simple, secure, and cost-effective solutions to back up and recover your data.
-+ Azure Backup can protect on-premises and cloud resources including virtual machines and file shares.
-+ Azure Backup policies configure the frequency of backups and the retention period for recovery points. 
-+ Azure Site Recovery is a disaster recovery solution that provides protection for your virtual machines and applications.
-+ Azure Site Recovery replicates your workloads to a secondary site, and in the event of an outage or disaster, you can failover to the secondary site and resume operations with minimal downtime.
-+ A Recovery Services vault stores your backup data and minimizes management overhead.
-
-
 ### You have successfully completed the lab
