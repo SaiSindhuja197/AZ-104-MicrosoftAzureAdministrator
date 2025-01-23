@@ -55,7 +55,7 @@ In this task, you will deploy three virtual machines, each into a separate virtu
 
    $location2 = 'Azure_region_2'
 
-   $rgName = 'az104-05-rg0-Deployment-id'
+   $rgName = 'az104-05-rg0-<inject key="DeploymentID" enableCopy="false"/>'
    ```
 
    >**Note**: In order to identify Azure regions, from the PowerShell session in Cloud Shell, run **(Get-AzLocation).Location** command.
