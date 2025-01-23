@@ -1,4 +1,4 @@
-# Lab 04 - Implement Intersite Connectivity
+# Lab 03 - Implement Intersite Connectivity
 
 ## Lab Overview
  
