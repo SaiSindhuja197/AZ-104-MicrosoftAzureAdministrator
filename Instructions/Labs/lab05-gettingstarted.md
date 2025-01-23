@@ -84,7 +84,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 To adjust the zoom level for the environment page, click the A↕ : 100% icon located next to the timer in the lab environment.
 
-![Use the Split Window Feature](./media/gs4n.png)
+![Use the Split Window Feature](../media/gs4n.png)
 
 ## Managing Your Virtual Machine
  
