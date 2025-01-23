@@ -4,20 +4,24 @@
         "Language": "English",
         "Files": [
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_01-Manage_Microsoft_Entra_ID_Identities.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LabIntro2.md",
                 "Order": 1
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_01-Manage_Microsoft_Entra_ID_Identities.md",
                 "Order": 2
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md",
                 "Order": 3
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md",
                 "Order": 4
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/refs/heads/pax8labs/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md",
+                "Order": 5
             }
         
         ]
