@@ -29,16 +29,16 @@ In this task, you will create a new Azure Container Instance (ACI) for hosting a
    
 1. On the **Container instances** blade, click **+ Create**.
 
-1. On the **Basics** tab of the **Create container instance** blade, specify the following settings (leave others with their default values) and Click **Next: Networking >**
+1. On the **Basics** tab of the **Create container instance** blade, specify the following settings (leave others with their default values) and Click **Next: Networking > (7)**
 
     | Setting | Value |
     | ---- | ---- |
-    | Subscription | Leave it as default |
-    | Resource group | Select **az104-09b-rg1** |
-    | Container name | **az104-9b-c1** |
-    | Region | **<inject key="Region" enableCopy="false" />** |
-    | Image Source | **Quickstart images** |
-    | Image | **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux)** |
+    | Subscription | Leave it as default **(1)** |
+    | Resource group | Select **az104-09b-rg1 (2)** |
+    | Container name | **az104-9b-c1 (3)** |
+    | Region | **<inject key="Region" enableCopy="false" /> (4)** |
+    | Image Source | **Quickstart images (5)** |
+    | Image | **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux) (6)** |
 
     ![image](./media/az-104z1.png)
 
@@ -76,9 +76,9 @@ In this task, you will review the deployment of the Azure Container Instance (AC
 
 1. Verify that the **Welcome to Azure Container Instance** page is displayed.
 
-    ![image](./media/l9-image26.png)
+    ![image](./media/containerinstance.png)
 
-1. Close the new browser tab, back in the Azure portal, in the **Settings** section of the container instance blade, click **Containers**, and then click **Logs**.
+1. Close the new browser tab, back in the Azure portal, in the **Settings** section of the container instance blade, click **Containers (1)**, and then click **Logs (2)**.
 
     ![image](./media/l9-image28.png)
 

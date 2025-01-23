@@ -42,18 +42,18 @@ In this task, you will create an Azure Web App, which is a platform-as-a-service
 
     | Setting | Value |
     | --- | ---|
-    | Subscription | the name of the Azure subscription you are using in this lab |
-    | Resource group | Select **az104-09a-rg1** |
-    | Web app name | webapp<inject key="DeploymentID" enableCopy="false" /> |
-    | Publish | **Code** |
-    | Runtime stack | **PHP 8.2** |
-    | Operating system | **Linux** |
-    | Region | **<inject key="Region" enableCopy="false"/>** |
-    | Pricing plans | **Premium V3 P1V3 (195 minimum ACU/vCPU, 8 GB memory, 2 vCPU) v** |
+    | Subscription | the name of the Azure subscription you are using in this lab **(1)** |
+    | Resource group | Select **az104-09a-rg1 (2)** |
+    | Web app name | **webapp<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Publish | **Code (4)** |
+    | Runtime stack | **PHP 8.2 (5)** |
+    | Operating system | **Linux (6)** |
+    | Region | **<inject key="Region" enableCopy="false"/> (7)** |
+    | Pricing plans | **Premium V3 P1V3 (195 minimum ACU/vCPU, 8 GB memory, 2 vCPU)** |
 
     ![image](./media/l9-image(3).png)
    
-1. Click **Review + create**. On the **Review + create** tab of the **Create Web App** blade, ensure that the validation passed and click **Create**.
+1. Click **Review + create (8)**. On the **Review + create** tab of the **Create Web App** blade, ensure that the validation passed and click **Create**.
 
     >**Note**: Wait until the web app is created before you proceed to the next task. This should take about a minute.
 
@@ -77,7 +77,7 @@ In this task, you will create a staging deployment slot in Azure Web Apps, which
 
     >**Note**: The web app, at this point, has a single deployment slot labeled **PRODUCTION**.
 
-1. Click **+ Add slot**, and add a new slot with the following settings then click on **Add**. 
+1. Click **Add slot**, and add a new slot with the following settings then click on **Add**. 
 
     | Setting | Value |
     | --- | ---|
@@ -102,17 +102,17 @@ In this task, you will create a staging deployment slot in Azure Web Apps, which
 
 In this task, you will configure Web App deployment settings. Deployment settings allow for continuous deployment. This ensures that the app service has the latest version of the application.
 
-1. In the staging slot, select **Deployment Center** from the left navigation pane  and then select **Settings**.
+1. In the staging slot, select **Deployment Center (1)** from the left navigation pane  and then select **Settings**.
 
     >**Note:** Make sure you are on the staging slot blade (instead than the production slot).
     
-1. In the **Source** drop-down list, select **External Git**. Notice the other choices. 
+1. In the **Source** drop-down list, select **External Git (2)**. Notice the other choices. 
 
-1. In the repository field, enter `https://github.com/Azure-Samples/php-docs-hello-world`
+1. In the repository field, enter `https://github.com/Azure-Samples/php-docs-hello-world` **(3)**.
 
-1. In the branch field, enter `master`.
+1. In the branch field, enter `master` **(4)**.
 
-1. Select **Save**.
+1. Select **Save (5)**.
 
      ![image](./media/l9-image7.png)
 
@@ -134,13 +134,13 @@ In this task, you will swap the staging slot with the production slot.
 
 1. Navigate to the **App Service**, then proceed to select the web app you previously created, directing you to the blade showcasing the production slot of the web application.
 
-1. In the **Deployment** section, click **Deployment slots** and then, click **Swap** toolbar icon.
+1. In the **Deployment** section, click **Deployment slots (1)** and then, click **Swap (2)** toolbar icon.
 
-   ![image](./media/lab09-new-3.png)
-
-1. On the **Swap** blade, review the default settings and click **Start Swap**.
+1. On the **Swap** blade, review the default settings and click **Start Swap (3)**.
 
    >**Note**: Kindly Wait till Swap successfully complete.
+
+   ![image](./media/lab09-new-3.png)
 
 1. Once you get **Successfully completed swap between slot 'staging' and slot 'production'** click on **Close**.
    
@@ -152,19 +152,19 @@ In this task, you will swap the staging slot with the production slot.
 
 In this task, you will configure autoscaling of Azure Web App. Autoscaling enables you to maintain optimal performance for your web app when traffic to the web app increases. To determine when the app should scale you can monitor metrics like CPU usage, memory, or bandwidth.
 
-1. In the **Settings** section, select **Scale out (App Service plan)**.
+1. In the **Settings** section, select **Scale out (App Service plan) (1)**.
 
     >**Note:** Ensure you are working on the production slot not the staging slot.  
 
-1. From the **Scaling** section, select **Automatic**. Notice the **Rules Based** option. Rules based scaling can be configured for different app metrics. 
+1. From the **Scaling** section, select **Automatic (2)**. Notice the **Rules Based** option. Rules based scaling can be configured for different app metrics. 
 
-1. In the **Maximum burst** field, select **2**.
+1. In the **Maximum burst** field, select **2 (3)**.
 
-1. Select **Save**.
+1. Select **Save (4)**.
 
    ![image](./media/l9-image15.png)
    
-1. Select **Diagnose and solve problems** (left pane) and in the **Load Test your App** box, select **Create Load Test**.
+1. Select **Diagnose and solve problems (1)** (left pane) and in the **Load Test your App** box, select **Create Load Test (2)**.
 
     ![image](./media/l9-image16.png)
 
@@ -175,11 +175,11 @@ In this task, you will configure autoscaling of Azure Web App. Autoscaling enabl
     + Leave the region as default.(4)
     + Select **Review + create** (5) and then **Create**.
 
-     ![image](./media/l9-image17.png)
+        ![image](./media/l9-image17.png)
    
 1. Wait for the load test to create, and then select **Go to resource**.
 
-1. From the **Overview**  of Azure load testing blade, under **Add HTTP requests**, select **Create**.
+1. From the **Overview (1)**  of Azure load testing blade, under **Add HTTP requests**, select **Create (2)**.
 
     ![image](./media/l9-image18.png)
 
