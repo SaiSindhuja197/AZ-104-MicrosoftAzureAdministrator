@@ -316,7 +316,7 @@ In this task, you will test connectivity between virtual machines on the three v
 
     >**Note**: You can ignore any warning prompts when connecting to the target virtual machines.
 
-13. When prompted, sign in by using the **Student** username and the password **Pa55w.rd1234**.
+13. When prompted, sign in by using the **Student** username and the password **Pa55w.rd1234**.Click on **Yes** in the prompt that appears.
 
 14. Within the Remote Desktop session to **az104-05-vm1**, right-click the **Start** button and, in the right-click menu, click **Windows PowerShell (Admin)**.
 
