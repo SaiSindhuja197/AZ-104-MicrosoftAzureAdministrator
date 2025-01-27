@@ -46,7 +46,7 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
      ![](../Labs/Images/pax8-image25.png)
 
-1. Run the following command to create a virtual machine. When prompted, provide a username and password for the VM. While you wait check out the [New-AzVM](https://learn.microsoft.com/powershell/module/az.compute/new-azvm?view=azps-11.1.0) command reference for all the parameters associated with creating a virtual machine.
+1. Run the following command to create a virtual machine. When prompted, provide a **username** and **password** for the VM. While you wait check out the [New-AzVM](https://learn.microsoft.com/powershell/module/az.compute/new-azvm?view=azps-11.1.0) command reference for all the parameters associated with creating a virtual machine.
 
     ```powershell
     New-AzVm `
@@ -58,6 +58,8 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
     -Size 'Standard_D2s_v3' ` 
     -Credential (Get-Credential)
     ```
+
+   >**Note**: You can give Admin password as **Password.1!!**.
 
 1. Once the command completes, use **Get-AzVM** to list the virtual machines in your resource group.
 
