@@ -280,7 +280,7 @@ In this task, you will create and configure Azure Files shares.
 
 1. In the **Security + networking** section, select the **Networking** blade.
 
-1. On the **Public network access** page, select **Enable from selected networks**. Under **Virtual Networks** select **+ Add existing virtual network**.
+1. On the **Public network access** page, select **Enable from selected networks and IP addresses**. Under **Virtual Networks** select **+ Add existing virtual network**.
 
     ![image](./media/az-d2-4.png)
 
