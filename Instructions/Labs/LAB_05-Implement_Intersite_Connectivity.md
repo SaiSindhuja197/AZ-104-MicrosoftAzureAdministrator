@@ -354,7 +354,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | --- | --- |
     | Subscription | Default Subscription |
     | Resource group | **az104-05-rg0--<inject key="DeploymentID" enableCopy="false" />**  |
-    | Region | **East US** |
+    | Region | Make sure to deploy it in the same region where the **az104-05-vnet0** virtual network is deployed|
     | Name | **az104-05-vm0** |
     | Propagate gateway routes | **No** |
 
