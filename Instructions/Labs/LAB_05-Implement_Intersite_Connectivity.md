@@ -60,6 +60,8 @@ In this task, you will deploy three virtual machines, each into a separate virtu
 
    >**Note**: In order to identify Azure regions, from the PowerShell session in Cloud Shell, run **(Get-AzLocation).Location** command.
 
+   >**Note:** You can use regions like eastus, westus, centralus
+
    >**Important**: Replace Deployment-id with **<inject key="DeploymentID" enableCopy="false" />**.
    
    >**Note**: If you get a prompt stating **Provided resource group already exists. Are you sure you want to update it?** type N .
