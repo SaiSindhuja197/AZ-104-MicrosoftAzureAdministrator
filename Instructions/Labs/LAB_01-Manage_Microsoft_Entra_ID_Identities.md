@@ -211,17 +211,19 @@ In this task, you will create Azure Active Directory groups with assigned and dy
     | Group description | **Contoso IT Lab administrators** |
     | Membership type | **Assigned** |
 
-1. Click **No members selected (1)**. From the **Add members** blade, under **Groups (2)** tab search and select the **IT Cloud Administrators** and **IT System Administrators** groups **(3)** and click on **Select (4)**, back on the **New Group** blade, click **Create**.
+1. Click **No members selected (1)**. From the **Add members** blade, under **Groups (2)** tab search and select the **IT Cloud Administrators** and **IT System Administrators** groups **(3)** and click on **Select (4)**.
 
     ![](../Labs/media/lab1-image17.png)
    
+1. Back on the **New Group** blade, click **Create**.
+
 1. Back on the **Groups - All groups** blade, click the entry representing the **IT Cloud Administrators** group and, select **Members** blade. Verify that the **az104-01a-aaduser1** appears in the list of group members.
 
      ![image](../media/az104-mod3-image39.png)
 
     >**Note**: You might experience delays with updates of the dynamic membership groups. To expedite the update, navigate to the group blade, display its **Dynamic membership rules** blade, **Edit** the rule listed in the **Rule syntax** textbox by adding whitespace at the end, and **Save** the change.
 
-1. Navigate back to the **Groups - All groups** blade, click the entry representing the **IT System Administrators** group and, then display its **Members** blade. Verify that the **az104-01a-aaduser2** appears in the list of group members.
+1. Navigate back to the **Groups - All groups** blade from the left navigation pane, click the entry representing the **IT System Administrators** group and, then display its **Members** blade. Verify that the **az104-01a-aaduser2** appears in the list of group members.
 
 ### Task 3: Create an Microsoft Entra ID tenant
 
@@ -229,7 +231,7 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
 
 1. In the Azure portal in the main browser window, search for and select **Microsoft Entra ID**.
    
-1. Click **Manage tenant**, and then on the next screen, click **+ Create**, and specify the following setting:
+1. Click **Manage tenant** from the top navigation pane, and then on the next screen, click **+ Create**, and specify the following setting:
    
     | Setting | Value |
     | --- | --- |
@@ -243,6 +245,7 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
     | Initial domain name | any valid DNS name consisting of lower case letters and digits and starting with a letter **(2)** | 
     | Country/Region | **United States (3)** |
     
+
     ![](../Labs/Images/crttenant2.png)   
    
    > **Note**: The **Initial domain name** should not be a legitimate name that potentially matches your organization or another. The green checkmark in the **Initial domain name** text box will indicate that the domain name you typed in is valid and unique.
