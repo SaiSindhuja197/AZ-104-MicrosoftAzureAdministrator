@@ -358,7 +358,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Name | **az104-05-vm0** |
     | Propagate gateway routes | **No** |
 
-      ![Image](./Images/pax8-image54.png)
+      ![Image](./Images/az-d23.png)
 
 1. Click on **Create**.
 
