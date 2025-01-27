@@ -267,7 +267,7 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
     
 1. Select **Manage tenants** to display the blade of the newly created Entra ID tenant and select **Settings (1)** button in the Azure portal toolbar and, click on **Switch (2)**.
 
-     ![](../Labs/media/lab1-image18.png)
+     ![](../Labs/media/az-12.png)
 
 ### Task 4: Manage Entra ID, guest users.
 
@@ -338,7 +338,7 @@ In this task, you will create Entra ID guest users, allowing external users to a
    <validation step="f05516fb-26d1-48f6-a20f-e2f9c0616ec2" />
    
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed with the next lab.
   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
