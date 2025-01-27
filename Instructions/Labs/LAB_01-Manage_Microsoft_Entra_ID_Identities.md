@@ -260,12 +260,11 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
     >- Try the creation a few times.<br>
     >- Check the **Manage tenant** section to ensure the tenant wasn't created in the background. <br>
     >- Open a new **InPrivate** window and use the Azure Portal and try to create the tenant from there.<br>
-    >- Use the **[interactive lab simulation](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator%20Exercise%201)** to view the steps. <br>
     >- You can try this task later, but creating a tenant isn't required in other labs. 
 
 1. In the Azure portal search and select **Microsoft Entra ID**.
     
-1. Select **Manage tenants** to display the blade of the newly created Entra ID tenant and select **Settings (1)** button in the Azure portal toolbar and, click on **Switch (2)**.
+1. Select **Manage tenants** to display the blade of the newly created Entra ID tenant, select the tenant and click on **Switch (2)**.
 
      ![](../Labs/media/az-12.png)
 
