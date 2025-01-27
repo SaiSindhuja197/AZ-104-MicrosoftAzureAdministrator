@@ -51,7 +51,7 @@ In this task, you will create and configure an Azure Storage account.
 1. On the **Networking** tab of the **Create a storage account** blade, review the available options and select **Disable** for **public network access**. 
    Click **Next: Data protection >**.
 
-    ![image](./media/pax8-image48.png)
+    ![image](./media/az-d2-3.png)
      
 1. On the **Data protection** tab of the **Create a storage account** blade, review the available options and accept the defaults. Click **Review + Create** and wait for the validation process to complete. Then click on **Create**.
 
@@ -76,16 +76,10 @@ In this task, you will create and configure an Azure Storage account.
 1. Review the **Overview** blade and the additional configurations that can be changed. These are global settings for the storage account. Notice the storage account can be used for Blob containers, File shares, Queues, and Tables.
 
 1. In the **Security + Networking** section, select **Networking**. Notice public network access is disabled.
-
-1. Select Disabled link.
-
-    ![image](./media/pax8-image33.png)
    
-    + Change the **Public network access** to **Enable**
-    + Default action **Enabled from all network**.
-    + Be sure to **Save** your changes. 
+1. Change the network access to **Enabled from all networks** and be sure to **Save** your changes. 
 
-       ![image](./media/pax8-image34.png)
+   ![image](./media/az-d2-1.png)
       
 1. In the **Data management** section, view the **Redundancy** blade. Notice the information about your primary data center locations.
 
@@ -225,16 +219,13 @@ In this task, you will create and configure Azure Files shares.
 
     ![image](./media/pax8-image40.png)
 
-1. Create a file share with the following settings.
+1. Create a file share with the following name and click **Next: Backup**
 
     | Setting | Value |
     | --- | --- |
     | Name | **az104-07-share** |
-    | Tier | **transaction optimized** |
 
-    ![image](./media/pax8-image41.png)
-
-1. In the Backup tab, uncheck **Enable backup** option and then click on **Review + Create** > **Create**.
+1. In the Backup tab, make sure  **Enable backup** option is unchecked and then click on **Review + Create** > **Create**.
 
     ![image](./media/pax8-image44.png)
 
@@ -242,7 +233,7 @@ In this task, you will create and configure Azure Files shares.
 
 ### Explore Storage Browser and upload a file
 
-1. Return to your storage account and select **Storage Browser**. The Azure Storage Browser is a portal tool that lets you quickly view all the storage services under your account.
+1. Return to your storage account and select **Storage Browser** from the left navigation pane. The Azure Storage Browser is a portal tool that lets you quickly view all the storage services under your account.
 
 1. Select **File shares** and verify your **az104-07-share** directory is present.
 
@@ -273,6 +264,8 @@ In this task, you will create and configure Azure Files shares.
 
 1. Select **+ Create**. Select your resource group **az104-07-rg1** and give the virtual network a **name**, `vnet1`.
 
+1. Select  **<inject key="Region" enableCopy="false"/>** as the region.
+
 1. Take the defaults for other parameters, select **Review + create**, and then **Create**.
 
 1. Wait for the virtual network to deploy, and then select **Go to resource**.
@@ -287,26 +280,19 @@ In this task, you will create and configure Azure Files shares.
 
 1. In the **Security + networking** section, select the **Networking** blade.
 
-1. Select **Enabled from all networks**.
+1. On the **Public network access** page, select **Enable from selected networks**. Under **Virtual Networks** select **+ Add existing virtual network**.
 
-    ![image](./media/pax8-image43.png)
-
-1. On the **Public network access** page, select **Enable from selected networks**. Under **Virtual Networks** select **+ Add a virtual network** then 
-   from the drop down choose **Add existing virtual network**.
-
-    ![image](./media/pax8-image45.png)
+    ![image](./media/az-d2-4.png)
 
 1. On **Add network** window, select **vnet1** and **default** subnet, select **Add**.
 
     ![image](./media/pax8-image46.png)
    
 1. Be sure to **Save** your changes.
-
-     ![image](./media/pax8-image47.png)
    
     >**Note:** The storage account should now only be accessed from the virtual network you just created. 
 
-1. Return to your **Storage account** named **strgaz104t07<inject key="DeploymentID" enableCopy="false" />** and select the **Storage browser** then expand **Blob containers** and select **az104-07-container** and **Refresh** the page.  
+1. Return to your **Storage account** named **strgaz104t07<inject key="DeploymentID" enableCopy="false" />** and select the **Storage browser** then select **Blob containers** and select **az104-07-container** and **Refresh** the page.  
 
     >**Note:** You should receive a message *not authorized to perform this operation*. You are not connecting from the virtual network. It may take a couple of minutes for this to take effect.
 
@@ -315,8 +301,9 @@ In this task, you will create and configure Azure Files shares.
 
 ### Review
 In this lab, you have completed:
-- Create and configure a storage account. 
-- Create and configure secure blob storage.
-- Create and configure secure Azure file storage.
+
+- Created and configured a storage account. 
+- Created and configured secure blob storage.
+- Created and configured secure Azure file storage.
 
 ### You have successfully completed the lab
