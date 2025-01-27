@@ -4,7 +4,7 @@ Welcome to your AZ-104: Microsoft Azure Administrator workshop! We've prepared a
 
 # Lab 02 - Implement Virtual Networking
 
-### Overall Estimated Duration: 60 minutes
+### Overall Estimated Duration: 30 minutes
 
 ## Overview
 
