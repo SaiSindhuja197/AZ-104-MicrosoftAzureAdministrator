@@ -179,7 +179,7 @@ In this task, you will create Azure Active Directory groups with assigned and dy
    
 1. Back on the **New Group** blade, click **Create**.
 
-    ![image](../media/az104-mod3-image38.png)
+    ![image](../media/az-11.png)
 
 1. Back on the **Groups - All groups** blade of the Entra ID tenant, click the **+ New group** button and create a new group with the following settings:
 
