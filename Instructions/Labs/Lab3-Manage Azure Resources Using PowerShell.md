@@ -124,7 +124,7 @@ In this exercise, you will learn how to administer Azure resources with PowerShe
 
     ![](../Labs/Images/pax8-image30.png)
    
-  >**Did you know?** When you use Azure to stop your virtual machine, the status is *deallocated*. This means that any non-static public IPs are released, and you stop paying for the VM’s compute costs.
+    >**Did you know?** When you use Azure to stop your virtual machine, the status is *deallocated*. This means that any non-static public IPs are released, and you stop paying for the VM’s compute costs.
 
 ## Review
 
