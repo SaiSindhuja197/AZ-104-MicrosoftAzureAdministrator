@@ -232,12 +232,6 @@ In this task, you will create a Microsoft Entra ID user, assign the RBAC role yo
 
 1. Do not continue with creating the support request. Instead, sign out as the az104-02-aaduser1 user from the Azure portal and close the InPrivate browser window.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-<validation step="3fd36f71-74c5-4bba-8d44-9c8ed81fd0be" />
 
 ## Task 5: Monitor role assignments with the Activity Log
 
@@ -248,6 +242,13 @@ In this task, you will review the Azure activity log to check for any actions in
 1. Select **Activity Log**  from the left navigation pane and click on **Quick Insights** from the list that appears and select **Role assignment**. The activity log can be filtered for specific operations and review the activites for role assignments.  
 
     ![image](./media/l2-image61.png)
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the lab. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+   <validation step="3fd36f71-74c5-4bba-8d44-9c8ed81fd0be" />
 
 ### Task 6: Clean up resources
 
