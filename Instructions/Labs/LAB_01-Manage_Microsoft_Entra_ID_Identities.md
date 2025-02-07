@@ -337,7 +337,7 @@ In this task, you will create Entra ID guest users, allowing external users to a
    <validation step="f05516fb-26d1-48f6-a20f-e2f9c0616ec2" />
    
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed with the next lab.
+  > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the lab.
   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
