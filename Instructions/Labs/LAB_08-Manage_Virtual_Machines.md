@@ -283,13 +283,6 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
 
     >**Note**: Wait for the virtual machine scale set deployment to complete. This should take approximately 5 minutes. While you wait review the [documentation](https://learn.microsoft.com/azure/virtual-machine-scale-sets/overview).
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-<validation step="bd5e6aae-4787-489b-9bce-6aadf5bcfe0d" />
-
 ## Task 4: Scale Azure Virtual Machine Scale Sets
 
 In this task, you will scale the Virtual Machine (VM) Scale Set in Azure using a custom scale rule to ensure optimal performance and resource utilization based on specific criteria. A VM Scale Set allows you to manage a group of identical, load-balanced virtual machines that automatically scale in or out depending on the demand.
@@ -366,6 +359,13 @@ In this task, you will scale the Virtual Machine (VM) Scale Set in Azure using a
     ![](../Labs/Images/pax8-image19.png)
 
     >**Note:** If you are interested in using Azure PowerShell for virtual machine creation, try Task 5. If you are interested in using the CLI to create virtual machines, try Task 6.
+
+      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next lab. 
+      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+      
+      <validation step="bd5e6aae-4787-489b-9bce-6aadf5bcfe0d" />
 
 
 ### Review
