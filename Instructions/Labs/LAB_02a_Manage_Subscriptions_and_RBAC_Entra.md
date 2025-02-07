@@ -244,7 +244,7 @@ In this task, you will review the Azure activity log to check for any actions in
     ![image](./media/l2-image61.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you have successfully completed the lab. 
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed with the next lab. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
