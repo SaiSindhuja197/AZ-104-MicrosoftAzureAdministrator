@@ -251,13 +251,6 @@ In this task, you will create and configure Azure Files shares.
 
 1. Click **az104-07-folder** and verify that **az104-07-file.txt** appears in the list of files.
     
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-<validation step="8aafec5a-5eec-4738-ad84-29137a820ba8" />
-
 ### Restrict network access to the storage account
 
 1. In the portal, search for and select **Virtual networks**.
@@ -298,6 +291,13 @@ In this task, you will create and configure Azure Files shares.
 
      ![image](./media/l1-image16.png)
    
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  
+     <validation step="8aafec5a-5eec-4738-ad84-29137a820ba8" />
 
 ### Review
 In this lab, you have completed:
