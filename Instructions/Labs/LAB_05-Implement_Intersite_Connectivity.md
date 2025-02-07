@@ -251,11 +251,6 @@ In this task, you will configure local and global peering between the virtual ne
    
    <validation step="7df6e281-5a25-416d-8ad3-7e0c8a9218d9" />
    
-   <validation step="48e06831-31a7-4601-9840-89661d5d56dd" />
-   
-   <validation step="fb306908-e661-4cac-8769-3eb8b7108271" />
-
-
 ### Task 4: Test intersite connectivity
 
 In this task, you will test connectivity between virtual machines on the three virtual networks that you connected via local and global peering in the previous task.
