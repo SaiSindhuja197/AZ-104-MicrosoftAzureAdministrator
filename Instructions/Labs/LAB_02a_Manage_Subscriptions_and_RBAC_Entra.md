@@ -299,4 +299,4 @@ In this lab, you have completed:
 - Designed and deployed a custom RBAC role to meet your organization's unique security requirements, ensuring that the right level of access is granted to the right users.
 - Used the Activity Log to monitor role assignments and track changes to ensure that access control policies are being followed and that no unauthorized role modifications occur.
 
-### You have successfully completed the lab
+### You have successfully completed the lab. Click Next yo proceed with the next lab.
