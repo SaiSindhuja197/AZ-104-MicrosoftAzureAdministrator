@@ -268,23 +268,6 @@ In this task, you will review the Azure activity log to check for any actions in
 
     ![image](./media/l2-image57.png)
    
-1. In the Azure portal, search and select **Management groups**.
-   
-1. On the **Management groups** blade,  select the **ellipsis** icon next to your subscription under the **az104-02-mg1** management group and select **Move** to move the subscription to the **Tenant Root management group**.
-
-    ![image](./media/l2-image55.png)
-   
-    ![image](./media/l2-image56.png)
-
-   >**Note**: It is likely that the target management group is the **Tenant Root management group**, unless you created a custom management group hierarchy before running this lab.
-   
-1. Select **Refresh** to verify that the subscription has successfully moved to the **Tenant Root management group**.
-
-1. Navigate back to the **Management groups** blade, click the **ellipsis** icon to the right of the **az104-02-mg1** management group and click **Delete**,click **Yes** in the pop-up that appears.
-
-   >**Note**: If you are unable to delete the **management group**, chances are that the **Azure Subscription** is under the management group. You need to move **Azure Subscription** out of the **management group** and then delete the group make sure you also have the **Owner** permission on the **Tenant Root management group**.
-
-1. If you are unable to delete the management group, please reach out to the support team for assistance.
 
 ### Review
 In this lab, you have completed:
