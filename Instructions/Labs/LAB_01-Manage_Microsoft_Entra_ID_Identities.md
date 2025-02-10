@@ -242,10 +242,9 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
     | Setting | Value |
     | --- | --- |
     | Organization name | **Contoso Lab (1)** |
-    | Initial domain name | any valid DNS name consisting of lower case letters and digits and starting with a letter **(2)** | 
+    | Initial domain name | contosoorg<inject key="DeploymentID"></inject> **(2)** | 
     | Country/Region | **United States (3)** |
     
-
     ![](../Labs/Images/crttenant2.png)   
    
    > **Note**: The **Initial domain name** should not be a legitimate name that potentially matches your organization or another. The green checkmark in the **Initial domain name** text box will indicate that the domain name you typed in is valid and unique.
@@ -254,7 +253,7 @@ In this task, you will create a new Microsoft Entra ID tenant, which serves as a
 
    ![](../Labs/Images/catche.png)   
 
-    >**Note**: After clicking on Submit, please wait for 2 minutes before proceeding to the next step. You may not receive any notifications during this time then after some time procced with next step.
+    >**Note**: After clicking on Submit, please wait for 2 minutes before proceeding to the next step. You may not receive any notifications during this time then after some time proceed with the next step.
 
     >**Note**: There is a known issue with the Captcha verification in the lab environment. If you receive the error **Creation failed. Too many requests, please try later**, do the following:<br>
     >- Try the creation a few times.<br>
