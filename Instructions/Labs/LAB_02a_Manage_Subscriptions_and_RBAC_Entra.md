@@ -254,10 +254,6 @@ In this task, you will review the Azure activity log to check for any actions in
 
 ### Task 6: Clean up resources
 
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although, resources created in this lab do not incur extra cost.
-
-   >**Note**: Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
 1. In the Azure portal, navigate back to the **Management groups** blade. 
 
 1. On the **Management groups** blade choose **az104-02-mg1**, select **Access control (IAM)** then under **Roles** tab search for **Support Request Contributor (Custom)** under details select **View** link and select **Assignment** tab > **Remove** and select **yes**.
