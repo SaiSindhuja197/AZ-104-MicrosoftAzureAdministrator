@@ -42,7 +42,7 @@ In this task, you will create and organize management groups to streamline Azure
 
     ![image](./media/az-104.png)
 
-   > **Note:** If the management group is not present, kindly follow the below steps:
+   > **Note:** If the management group is not pre-created, kindly follow the below steps:
   
    1. On the **Management groups** blade, click **+ Create**.
 
@@ -212,12 +212,18 @@ In this task, you will create a Microsoft Entra ID user, assign the RBAC role yo
 
    ![image](./media/l2-image51.png)
    
-1. In the **InPrivate** browser window, on the **Describe your issue** tab of the **Help + support** blade, type **Service and subscription limits** (1) and select **Go** (2). Select the **Service and subscription limits (quotas)** (3)issue type. Select **Next** (4). Select **Create a support request** under Service and subscription limits (quotas).
+1. In the **InPrivate** browser window, on the **Describe your issue** tab of the **Help + support** blade, type **Service and subscription limits** (1) and select **Go** (2).
 
-    ![image](./media/az2.1.png)
+    ![image](./media/az1043.png)
 
-    ![image](./media/lab02-new-13.png)
-    
+1. Under the **Which service are you having an issue with?** select the **Service and subscription limits (quotas)** issue type. Select **Next** (4).
+
+    ![image](./media/az1044.png)
+
+1. Select **Create a support request** under Service and subscription limits (quotas).
+
+   ![image](./media/az1045.png)
+
 1. In the **InPrivate** browser window, on the **Problem Description** tab of the **Help + support - New support request** blade, **Service and subscription limits (quotas)** (1) as issue type is selected. Note that the subscription you are using in this lab is listed in the **Subscription** (2) drop-down list.
     
     ![image](./media/az3.1.png)
