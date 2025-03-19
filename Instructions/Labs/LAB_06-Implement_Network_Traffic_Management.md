@@ -1,4 +1,4 @@
-# Lab 01 - Implement Traffic Management
+# Lab 01 - Implement Network Traffic Management
 
 ## Lab Overview
 
