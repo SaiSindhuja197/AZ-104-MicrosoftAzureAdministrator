@@ -30,7 +30,7 @@ In this exercise, you will learn to manage governance via Azure Policy that invo
 
 In this task, you will learn how to create and assign a tag to an Azure resource group through the Azure portal. Tags in Azure are key-value pairs that help in organizing and categorizing resources for better management and reporting.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, search and select **Resource group** under services. Select **Resource group AZ-104T02** from the list.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, search and select **Resource group** under services. Select **Resource group az104-rg2** from the list.
 
    ![image](./media/l2-image45.png)
 
@@ -41,7 +41,7 @@ In this task, you will learn how to create and assign a tag to an Azure resource
     | Name | **Role** |
     | Value | **Infra** |
 
-   ![image](./media/l2-image27.png)
+   ![image](./media/E2T1S2.png)
    
 ### Task 2: Enforce tagging via an Azure policy
 
@@ -68,9 +68,9 @@ In this task, you will explore how to enforce governance policies by assigning t
     | Setting | Value |
     | --- | --- |
     | Subscription | the name of the Azure subscription you are using in this lab |
-    | Resource Group | AZ-104T02 |
+    | Resource Group | az104-rg2 |
 
-   ![image](./media/lab02-new-3.png)
+   ![image](./media/E2T2S5.png)
    
    >**Note**: A scope determines the resources or resource groups where the policy assignment takes effect. You could assign policies on the management group, subscription, or resource group level. You also have the option of specifying exclusions, such as individual subscriptions, resource groups, or resources (depending on the assignment scope). 
 
@@ -146,7 +146,7 @@ In this task, you will focus on identifying and remediating non-compliant resour
     | Setting | Value |
     | --- | --- |
     | Subscription | the name of the Azure subscription you are using in this lab |
-    | Resource Group | AZ-104T02 |
+    | Resource Group | az104-rg2 |
 
 1. To specify the **Policy definition**, click the ellipsis button and then search for and select **Inherit a tag from the resource group if missing** then click on **Add** if not selected in the definition.
 
@@ -198,11 +198,11 @@ In this task, you will focus on identifying and remediating non-compliant resour
     | Setting | Value |
     | --- | --- |
     | Subscription | the name of the Azure subscription you are using in this lab |
-    | Resource Group | AZ-104T02 |
+    | Resource Group | az104-rg2 |
     | Storage account name |  **storage<inject key="DeploymentID" enableCopy="false"/>** |
     | Redundancy |  **Locally-redundant storage (LRS)** |
 
-    ![image](./media/lab02-new-11.png)
+    ![image](./media/E2T3S13.png)
    
 1. Verify that this time the validation passed and click **Create**.
 
@@ -223,7 +223,7 @@ In this task, you will focus on identifying and remediating non-compliant resour
 
 In this task, you will configure and test a resource lock to safeguard critical Azure resources from unintended changes or deletions. Resource locks are a powerful governance feature in Azure.
 
-1. Search for and select your resource group **AZ-104T02**.
+1. Search for and select your resource group **az104-rg2**.
    
 1. In the **Settings** blade, select **Locks**.
 
